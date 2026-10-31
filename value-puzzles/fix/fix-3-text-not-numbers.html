@@ -13,8 +13,8 @@
       function getTotal(price, delivery) {
         return price + delivery;
       }
-      var price = prompt("Please enter the price");
-      var delivery = prompt("Please enter the delivery cost");
+      var price = Number(prompt("Please enter the price"));
+      var delivery = Number(prompt("Please enter the delivery cost"));
       document.write("Total: " + getTotal(price, delivery));
     </script>
   </body>

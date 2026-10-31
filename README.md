@@ -163,8 +163,8 @@ For each wrong prediction: what the page showed, and why:
 Puzzle 5: A, because return "A"; immediately ends the function and returns "A". document.write("B"); is unreachable.
 
 Tickets: what was wrong, and what I changed
-Ticket 1:
-Ticket 2:
-Ticket 3:
-Ticket 4:
-Validator results:
+Ticket 1: wrap getArea(wallWidth, wallHeight) in alert().
+Ticket 2: swap paid and cost places after return.
+Ticket 3: wrap prompt in Number()
+Ticket 4: add (examScore) - brackets with parameter after function name to call it correctly.
+Validator results: no errors.
