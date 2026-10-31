@@ -11,8 +11,10 @@
         <script>
             // This loop writes the lighthouse floors from 1 to 5.
             var lastFloor = Number(prompt("How many floors does the lighthouse have?"));
-            for (var i = 1; i <= lastFloor; i++) {
+            var i = 1;
+            while (i <= lastFloor) {
                 document.write("Floor " + i + "<br>");
+                i++;
             }
         </script>
     </body>
