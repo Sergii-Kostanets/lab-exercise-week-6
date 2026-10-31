@@ -62,3 +62,8 @@ In the `while` loop in `floors.html`:
 - Start: `var i = 1`, written before the loop.
 - Condition: `i <= lastFloor`, in the `while` statement and checked before each iteration.
 - Update: `i++`, written inside the loop body so the counter increases after each floor is written.
+
+### Part 2 - times-table.html
+
+1 x 7 = 7
+10 x 7 = 70

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Student name: Sergii Kostanets -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Times table</title>
+    </head>
+    <body>
+        <h1>Times table</h1>
+        <script>
+            // This page writes the times table chosen by the user.
+            var tableNumber = Number(prompt("Which times table would you like?"));
+            for (var i = 1; i <= 10; i++) {
+                var product = i * tableNumber;
+                document.write(i + " x " + tableNumber + " = " + product + "<br>");
+            }
+        </script>
+    </body>
+</html>
