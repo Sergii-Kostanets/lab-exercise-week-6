@@ -129,3 +129,36 @@ Ticket 2: add brackets after function name to call it correctly.
 Ticket 3: replace document.write with alerts to save the initial page elements.
 Ticket 4: replace line stamps + 1; with stamps = stamps + 1; to correctly save value in the variable.
 Validator results: no errors.
+
+## Exercise 4 notes: Function values
+
+### Part 1 - turf.html
+
+In my own words: a parameter and an argument: parameter is a variable fuction awaits, argument is a variable function gets.
+What the page showed when getArea returned a value and nothing used it, and why: we didnt assign returned value to a variable.
+- width and height are parameters.
+- lawnWidth is an argument (variable passed to the function).
+- 4 is a value stored in a variable or passed directly.
+
+### Part 2 - delivery.html
+
+What the page showed for 49 and for 50:
+The three things that happen to the order total, from the prompt to the page:
+
+Puzzles: my predictions (before opening any page)
+Puzzle 1:
+Puzzle 2:
+Puzzle 3:
+Puzzle 4:
+Puzzle 5:
+Puzzle 6:
+Puzzle 7:
+Puzzle 8:
+For each wrong prediction: what the page showed, and why:
+
+Tickets: what was wrong, and what I changed
+Ticket 1:
+Ticket 2:
+Ticket 3:
+Ticket 4:
+Validator results:

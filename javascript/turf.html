@@ -9,13 +9,14 @@
     <body>
         <h1>Turf</h1>
         <script>
-            // This function displays the area using the supplied width and height.
-            function showArea(width, height) {
-                alert(width * height);
+            // This function returns the area using the supplied width and height.
+            function getArea(width, height) {
+                return width * height;
             }
             var lawnWidth = 12;
             var lawnHeight = 7;
-            showArea(lawnWidth, lawnHeight);
+            alert(getArea(lawnWidth, lawnHeight));
+            document.write("The lawn needs " + getArea(lawnWidth, lawnHeight) + " square metres of turf");
         </script>
     </body>
 </html>
