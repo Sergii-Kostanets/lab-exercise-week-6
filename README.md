@@ -67,3 +67,8 @@ In the `while` loop in `floors.html`:
 
 1 x 7 = 7
 10 x 7 = 70
+
+### Part 3 - reading-room.html
+
+3. 4 times. The door stays locked.
+
