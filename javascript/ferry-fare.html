@@ -11,7 +11,9 @@
         <script>
             // This page asks for a passenger's age and calculates the ferry fare.
             var age = Number(prompt("Please enter your age"));
-            if (age < 16) {
+            if (age < 5) {
+                document.write("Free");
+            } else if (age < 16) {
                 document.write("Child fare");
             } else {
                 document.write("Adult fare");
