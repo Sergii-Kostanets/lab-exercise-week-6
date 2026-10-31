@@ -74,15 +74,20 @@ In the `while` loop in `floors.html`:
 4. 3 times.
 
 Puzzles: my predictions (before opening any page)
-Puzzle 1: 
-Puzzle 2: 
-Puzzle 3: 
-Puzzle 4: 
+Puzzle 1: 123
+Puzzle 2: 012
+Puzzle 3: 123
+Puzzle 4: 10
 Puzzle 5: 
-Puzzle 6: 
-Puzzle 7: 
-Puzzle 8: 
+1
+2
+3
+Puzzle 6: 1 2 3 
+Puzzle 7: 123
+Puzzle 8: 4
 For each wrong prediction: what the page showed, and why:
+Puzzle 3: *** - I missed that document.write returns a star, not a variable.
+Puzzle 7: 12 - I missed that break stoppes for loop from if decision.
 
 Tickets: what was wrong, and what I changed
 Ticket 1: 
