@@ -149,15 +149,18 @@ The three things that happen to the order total, from the prompt to the page:
 3. The returned delivery cost is formatted to two decimal places with `toFixed(2)`, added to the output text, and displayed with `document.write`.
 
 Puzzles: my predictions (before opening any page)
-Puzzle 1:
-Puzzle 2:
-Puzzle 3:
-Puzzle 4:
-Puzzle 5:
-Puzzle 6:
-Puzzle 7:
-Puzzle 8:
+Puzzle 1: 8 after heading
+Puzzle 2: 5 after heading
+Puzzle 3: 23 after heading
+Puzzle 4: Done after heading
+Puzzle 5: B after heading
+Puzzle 6: after heading:
+6
+-6
+Puzzle 7: 25 in alert
+Puzzle 8: Hot Mild - after heading
 For each wrong prediction: what the page showed, and why:
+Puzzle 5: A, because return "A"; immediately ends the function and returns "A". document.write("B"); is unreachable.
 
 Tickets: what was wrong, and what I changed
 Ticket 1:

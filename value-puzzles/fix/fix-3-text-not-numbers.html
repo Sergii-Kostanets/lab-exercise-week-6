@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Student name: Sergii Kostanets -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order total</title>
+  </head>
+  <body>
+    <h1>Order total</h1>
+    <script>
+      // The price of an item plus the delivery cost
+      function getTotal(price, delivery) {
+        return price + delivery;
+      }
+      var price = prompt("Please enter the price");
+      var delivery = prompt("Please enter the delivery cost");
+      document.write("Total: " + getTotal(price, delivery));
+    </script>
+  </body>
+</html>

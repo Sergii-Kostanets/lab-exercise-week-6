@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Student name: Sergii Kostanets -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam result</title>
+  </head>
+  <body>
+    <h1>Exam result</h1>
+    <script>
+      /* Gives back the result for an exam score:
+         forty or more is a pass. */
+      function getResult(score) {
+        if (score >= 40) {
+          return "You passed";
+        } else {
+          return "Try again";
+        }
+      }
+      var examScore = 65;
+      document.write(getResult);
+    </script>
+  </body>
+</html>
