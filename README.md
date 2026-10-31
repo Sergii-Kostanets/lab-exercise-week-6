@@ -142,8 +142,11 @@ What the page showed when getArea returned a value and nothing used it, and why:
 
 ### Part 2 - delivery.html
 
-What the page showed for 49 and for 50:
+What the page showed for 49 and for 50: $4.00 for 49 and $0.00 for 50.
 The three things that happen to the order total, from the prompt to the page:
+1. `prompt` asks for the order total, and `Number` converts the entered text to a number.
+2. The number is passed as the `orderTotal` argument to `getDeliveryCost`. The function checks whether it is at least 50 and returns 0 if it is, or 4 otherwise.
+3. The returned delivery cost is formatted to two decimal places with `toFixed(2)`, added to the output text, and displayed with `document.write`.
 
 Puzzles: my predictions (before opening any page)
 Puzzle 1:

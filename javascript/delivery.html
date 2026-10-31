@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Student name: Sergii Kostanets -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Delivery</title>
+    </head>
+    <body>
+        <h1>Delivery</h1>
+        <script>
+            // This function returns the delivery cost based on the order total.
+            function getDeliveryCost(orderTotal) {
+                if (orderTotal >= 50) {
+                    return 0;
+                } else {
+                    return 4;
+                }
+            }
+            var orderTotal = Number(prompt("Please enter the order total"));
+            document.write("Delivery cost: $" + getDeliveryCost(orderTotal).toFixed(2));
+        </script>
+    </body>
+</html>
