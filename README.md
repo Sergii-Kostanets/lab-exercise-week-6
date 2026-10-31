@@ -90,8 +90,8 @@ Puzzle 3: *** - I missed that document.write returns a star, not a variable.
 Puzzle 7: 12 - I missed that break stoppes for loop from if decision.
 
 Tickets: what was wrong, and what I changed
-Ticket 1: 
-Ticket 2: 
-Ticket 3: 
-Ticket 4: 
-Validator results: 
+Ticket 1: add  + "<br>" to document.write output.
+Ticket 2: add = to < so it's <= to include 6.
+Ticket 3: add break after message = "The gate opens"; to exit loop.
+Ticket 4: remove quotes around i to output value instaed of the string / char "i".
+Validator results: no errors.
