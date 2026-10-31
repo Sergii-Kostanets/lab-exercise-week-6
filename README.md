@@ -5,6 +5,7 @@
 Open [ferry-fare.html](javascript/ferry-fare.html) in a browser and enter an age when prompted.
 The page uses `if` and `else if` statements to show:
 
+- Below 0 or above 120: That is not a valid age
 - Under 5: Free
 - Under 16: Child fare
 - 16 and over: Adult fare
