@@ -34,7 +34,7 @@ Puzzle 5: actually showed Discount because I missed second value is true and con
 Puzzle 8: actually showed Busy Open the second door, I missed that second if is a separate decision.
 
 Tickets: what was wrong, and what I changed
-Ticket 1:
+Ticket 1: add = to > so it's >= and 16 included.
 Ticket 2:
 Ticket 3:
 Ticket 4:
