@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Student name: Sergii Kostanets -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Visitor tally</title>
+    </head>
+    <body>
+        <h1>Visitor tally</h1>
+        <button onclick="addVisitor()">Add visitor</button>
+        <button onclick="showVisitors()">Show visitors</button>
+        <button onclick="resetVisitors()">Reset</button>
+        <script>
+            // These functions share one visitor count.
+            var visitors = 0;
+            function addVisitor() {
+                visitors = visitors + 1;
+            }
+            function showVisitors() {
+                alert(visitors);
+            }
+            function resetVisitors() {
+                visitors = 0;
+            }
+        </script>
+    </body>
+</html>

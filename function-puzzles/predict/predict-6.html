@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Student name: write your name here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle 6</title>
+  </head>
+  <body>
+    <h1>Puzzle 6</h1>
+    <button onclick="addOne()">Add</button>
+    <button onclick="showTotal()">Show total</button>
+    <script>
+      // Click: Add, Add, Show total, Add, Show total.
+      // What do the two pop-ups say?
+      var clicks = 0;
+      function addOne() {
+        clicks = clicks + 1;
+      }
+      function showTotal() {
+        alert(clicks);
+      }
+    </script>
+  </body>
+</html>

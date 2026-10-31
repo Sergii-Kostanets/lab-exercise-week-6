@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Student name: write your name here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle 8</title>
+  </head>
+  <body>
+    <h1>Puzzle 8</h1>
+    <button onclick="sellTicket()">Sell ticket</button>
+    <button onclick="showTickets()">Show tickets</button>
+    <script>
+      // Click: Sell ticket three times, then reload the page, then Show tickets.
+      // What does the pop-up say?
+      var tickets = 0;
+      function sellTicket() {
+        tickets = tickets + 1;
+      }
+      function showTickets() {
+        alert(tickets);
+      }
+    </script>
+  </body>
+</html>

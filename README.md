@@ -104,9 +104,12 @@ What the page showed when the function was written but never called: we never ca
 What happened to the heading and the button when I clicked with document.write in the function: heading and button dissapeared because document.write run after page loaded and rewrite the whole page.
 What was different with alert: all elements stayed on their places, alert adds on top.
 
-visitor-tally.html
-What Show visitors said after Add visitor four times:
-What it said after I reloaded the page, and why:
+### Part 2 - visitor-tally.html
+
+What Show visitors said after Add visitor four times: 4
+What it said after I reloaded the page, and why: 0. Reloading runs the script again from the top, so the count starts again at zero. 
+
+### Part 3 - Predict
 
 Puzzles: my predictions (before opening any page)
 Puzzle 1:
