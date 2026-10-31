@@ -1,6 +1,8 @@
 # Lab Exercise Week 6 - Decisions, Loops and Functions
 
-## Ferry Fare
+## Exercise 1
+
+### Ferry Fare
 
 Open [ferry-fare.html](javascript/ferry-fare.html) in a browser and enter an age when prompted.
 The page uses `if` and `else if` statements to show:
@@ -10,15 +12,15 @@ The page uses `if` and `else if` statements to show:
 - Under 16: Child fare
 - 16 and over: Adult fare
 
-## Why the Order of Conditions Matters
+### Why the Order of Conditions Matters
 
 If `else if (age < 5)` is placed after the `if (age < 16)` test, entering age 3 displays "Child fare." The first condition is already true, so the `else if` is never checked. Put the under-5 test first to display "Free" for ages below 5.
 
-## Opening Hours Conditions
+### Opening Hours Conditions
 
 The shop is closed when the hour is before 9 or is 17 or later. If neither condition is true, the hour must be at least 9 and less than 17, so the shop is open. This is why the `||` check for closed hours gives the same result as checking the open-hours range with `&&`.
 
-## Part 3 - Predict
+### Part 3 - Predict
 
 Puzzles: my predictions (before opening any page)
 Puzzle 1: Cool
@@ -38,4 +40,10 @@ Ticket 1: add = to > so it's >= and 16 included.
 Ticket 2: added && people < 10 to initiate if condition
 Ticket 3: combined two separate if desitions into one adding else if instead if
 Ticket 4: replace or (||) in the condition to and (&&) so both checks must be true, not only one.
-Validator results:
+Validator results: all good
+
+## Exercise 1
+
+### Part 1 - floors.html
+
+Floor 1Floor 2Floor 3Floor 4Floor 5
