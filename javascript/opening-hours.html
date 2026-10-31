@@ -9,12 +9,12 @@
     <body>
         <h1>Opening hours</h1>
         <script>
-            // This page checks whether the shop is open at the specified hour.
-            var hour = 17;
-            if (hour >= 9 && hour < 17) {
-                document.write("The shop is open");
+            // This page checks whether the shop is closed at the specified hour.
+            var hour = 8;
+            if (hour < 9 || hour >= 17) {
+                document.write("Closed");
             } else {
-                document.write("The shop is closed");
+                document.write("Open");
             }
         </script>
     </body>

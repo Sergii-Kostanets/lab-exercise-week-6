@@ -13,3 +13,7 @@ The page uses `if` and `else if` statements to show:
 ## Why the Order of Conditions Matters
 
 If `else if (age < 5)` is placed after the `if (age < 16)` test, entering age 3 displays "Child fare." The first condition is already true, so the `else if` is never checked. Put the under-5 test first to display "Free" for ages below 5.
+
+## Opening Hours Conditions
+
+The shop is closed when the hour is before 9 or is 17 or later. If neither condition is true, the hour must be at least 9 and less than 17, so the shop is open. This is why the `||` check for closed hours gives the same result as checking the open-hours range with `&&`.
