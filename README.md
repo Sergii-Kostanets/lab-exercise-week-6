@@ -42,11 +42,23 @@ Ticket 3: combined two separate if desitions into one adding else if instead if
 Ticket 4: replace or (||) in the condition to and (&&) so both checks must be true, not only one.
 Validator results: all good
 
-## Exercise 1
+## Exercise 2 - Loops
 
 ### Part 1 - floors.html
 
 1. Floor 1Floor 2Floor 3Floor 4Floor 5
 2. 4, because 5 is not in the scope with < instaed <=.
 5. For 5 it's 1, 3, 5. For 6 it's also 1, 3, 5.
+6. The Three Parts of a Loop
 
+In the `for` loop `for (var i = 1; i <= 5; i++)`:
+
+- Start: `var i = 1`, which sets the counter's initial value.
+- Condition: `i <= 5`, which is checked before each loop iteration.
+- Update: `i++`, which increases the counter after each iteration.
+
+In the `while` loop in `floors.html`:
+
+- Start: `var i = 1`, written before the loop.
+- Condition: `i <= lastFloor`, in the `while` statement and checked before each iteration.
+- Update: `i++`, written inside the loop body so the counter increases after each floor is written.
