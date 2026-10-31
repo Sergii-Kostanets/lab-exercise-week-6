@@ -46,4 +46,7 @@ Validator results: all good
 
 ### Part 1 - floors.html
 
-Floor 1Floor 2Floor 3Floor 4Floor 5
+1. Floor 1Floor 2Floor 3Floor 4Floor 5
+2. 4, because 5 is not in the scope with < instaed <=.
+5. For 5 it's 1, 3, 5. For 6 it's also 1, 3, 5.
+
