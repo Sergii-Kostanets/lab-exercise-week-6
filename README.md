@@ -95,3 +95,33 @@ Ticket 2: add = to < so it's <= to include 6.
 Ticket 3: add break after message = "The gate opens"; to exit loop.
 Ticket 4: remove quotes around i to output value instaed of the string / char "i".
 Validator results: no errors.
+
+## Exercise 3 - Functions
+
+### Part 1 - lamp.html
+
+What the page showed when the function was written but never called: we never called a function, so page shows only the heading.
+What happened to the heading and the button when I clicked with document.write in the function: heading and button dissapeared because document.write run after page loaded and rewrite the whole page.
+What was different with alert: all elements stayed on their places, alert adds on top.
+
+visitor-tally.html
+What Show visitors said after Add visitor four times:
+What it said after I reloaded the page, and why:
+
+Puzzles: my predictions (before opening any page)
+Puzzle 1:
+Puzzle 2:
+Puzzle 3:
+Puzzle 4:
+Puzzle 5:
+Puzzle 6 (the two pop-ups):
+Puzzle 7:
+Puzzle 8:
+For each wrong prediction: what the page showed, and why:
+
+Tickets: what was wrong, and what I changed
+Ticket 1:
+Ticket 2:
+Ticket 3:
+Ticket 4:
+Validator results:
