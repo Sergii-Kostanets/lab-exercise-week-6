@@ -37,5 +37,5 @@ Tickets: what was wrong, and what I changed
 Ticket 1: add = to > so it's >= and 16 included.
 Ticket 2: added && people < 10 to initiate if condition
 Ticket 3: combined two separate if desitions into one adding else if instead if
-Ticket 4:
+Ticket 4: replace or (||) in the condition to and (&&) so both checks must be true, not only one.
 Validator results:
