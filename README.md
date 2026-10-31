@@ -112,15 +112,16 @@ What it said after I reloaded the page, and why: 0. Reloading runs the script ag
 ### Part 3 - Predict
 
 Puzzles: my predictions (before opening any page)
-Puzzle 1:
-Puzzle 2:
-Puzzle 3:
-Puzzle 4:
-Puzzle 5:
-Puzzle 6 (the two pop-ups):
-Puzzle 7:
-Puzzle 8:
+Puzzle 1: no output from fuction as it's not called.
+Puzzle 2: Hi!Hi!
+Puzzle 3: no output as there are no brackets after function name when trying to call it.
+Puzzle 4: 10
+Puzzle 5: BAB
+Puzzle 6 (the two pop-ups): 2 and 3
+Puzzle 7: Note saved (headin and button dissapeared)
+Puzzle 8: 0
 For each wrong prediction: what the page showed, and why:
+all correctly predicted.
 
 Tickets: what was wrong, and what I changed
 Ticket 1:
