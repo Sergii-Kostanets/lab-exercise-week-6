@@ -71,4 +71,22 @@ In the `while` loop in `floors.html`:
 ### Part 3 - reading-room.html
 
 3. 4 times. The door stays locked.
+4. 3 times.
 
+Puzzles: my predictions (before opening any page)
+Puzzle 1: 
+Puzzle 2: 
+Puzzle 3: 
+Puzzle 4: 
+Puzzle 5: 
+Puzzle 6: 
+Puzzle 7: 
+Puzzle 8: 
+For each wrong prediction: what the page showed, and why:
+
+Tickets: what was wrong, and what I changed
+Ticket 1: 
+Ticket 2: 
+Ticket 3: 
+Ticket 4: 
+Validator results: 
