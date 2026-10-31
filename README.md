@@ -124,8 +124,8 @@ For each wrong prediction: what the page showed, and why:
 all correctly predicted.
 
 Tickets: what was wrong, and what I changed
-Ticket 1:
-Ticket 2:
-Ticket 3:
-Ticket 4:
-Validator results:
+Ticket 1: add welcome(); after fuction declaration to call it.
+Ticket 2: add brackets after function name to call it correctly.
+Ticket 3: replace document.write with alerts to save the initial page elements.
+Ticket 4: replace line stamps + 1; with stamps = stamps + 1; to correctly save value in the variable.
+Validator results: no errors.
